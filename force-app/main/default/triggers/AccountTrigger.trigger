@@ -14,7 +14,7 @@ trigger AccountTrigger on Account (before insert) {
     AccountTriggerHelper AccountUpdate = new AccountTriggerHelper();
    
     if (Trigger.isInsert) {
-     	
+        
         AccountUpdate.UpdateName (Trigger.new);
      
     }

@@ -22,7 +22,7 @@ public without sharing class Eco_TriggerFactory
     {
         TriggerConfigs    = Eco_TriggerConfig.Configurations;
         TriggerIgnores    = new Set<Schema.SObjectType>();
-        TriggerHanlderMap = new Map<String, CDC_TriggerInterface>();
+        TriggerHanlderMap = new Map<String, Eco_TriggerInterface>();
     }
 
     /**
